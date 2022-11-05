@@ -19,4 +19,5 @@ def operation():
   return jsonify(payload)
 
 
-app.run()
+if __name__ == '__main__':
+  app.run(debug=False, host='0.0.0.0')
