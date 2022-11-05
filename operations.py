@@ -15,7 +15,7 @@ def operation():
     operation_result = x - y
   elif(operation_type == Operations.MULTIPLICATION.value):
     operation_result = x * y
-  payload = {'slackUsername': 'Miracle','operation_type': operation_type, 'result':operation_result }
+  payload = {'slackUsername': 'Miracle Igwe','operation_type': operation_type, 'result':operation_result }
   return jsonify(payload)
 
 
